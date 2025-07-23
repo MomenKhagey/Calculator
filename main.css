@@ -1,0 +1,49 @@
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  background-color: royalblue;
+  width: fit-content;
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 50px auto;
+}
+.screen_area {
+  text-align: right;
+  overflow-x: scroll;
+  width: 228px;
+  height: 60px;
+  background: #181616;
+  border-radius: 13px;
+  margin-bottom: 9px;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #00f10a;
+}
+
+.clac-row {
+  margin: 5px auto;
+}
+
+.clac-row button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.clac-row button:hover {
+  transition: all 0.3s;
+  opacity: 0.7;
+  background-color: beige;
+  color: #333;
+}
